@@ -79,4 +79,7 @@ select opt in "${options[@]}"; do
 		;;
 	"Quit")
 		break
-		
+		;;
+	*) echo "Invalid option $REPLY" ;;
+	esac
+done
